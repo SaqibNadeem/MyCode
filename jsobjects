@@ -1,0 +1,46 @@
+//OBJECTS
+
+let car={
+    brand:"bmw",
+    color:"black",
+    fuel:"petrol",
+    cost:{
+        initialCost:100,
+        maintenanceCost:50
+    },
+
+    start: function()
+    {
+        console.log(this.brand+" car started...");
+    }
+};
+
+// console.log(car);
+// console.log(car.cost);
+
+// car.weight=100;
+// car.color="white";
+// delete car.cost;
+// car.seating;
+
+// car.start();
+
+car.stop= function()
+{
+    console.log("car stoped.");
+}
+
+
+// car.stop();
+
+
+// function nofuel()
+// {
+//     console.log("no fuel");
+// }
+// car.lessFuel= nofuel;
+
+
+// delete car.start;
+// console.log(car);
+car.start();
